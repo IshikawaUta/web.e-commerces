@@ -1,0 +1,73 @@
+body {
+    background-color: aliceblue;
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #9a9e9b; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    border-radius: 5px; /* Sudut tumpul */
+    transition: background-color 0.3s; /* Efek transisi */
+}
+
+.button:hover {
+    background-color: #000000; /* Warna saat hover */
+}
